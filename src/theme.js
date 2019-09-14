@@ -6,6 +6,7 @@ export const globalStyle = css`
 
   body {
     background: #f6f6f9;
+    overflow-x: hidden;
   }
   body,
   html,
@@ -36,6 +37,10 @@ export default {
     medium: 500,
     semibold: 600,
     bold: 700,
+  },
+  avatarSizes: {
+    normal: 60,
+    small: 50,
   },
   colors: {
     primary: '#4E69A3',

@@ -6,6 +6,7 @@ import Sidebar from './app/Sidebar';
 import NewsPage from './app/NewsPage';
 import Frame from './ui/Frame';
 import Content from './ui/Content';
+import UserToolbar from './app/UserToolbar';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Content>
           <NewsPage />
         </Content>
+        <UserToolbar />
       </Frame>
     </ThemeProvider>
   );
