@@ -2,6 +2,17 @@ import { css } from '@emotion/core';
 
 export const globalStyle = css`
   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+  body {
+    background: #f6f6f9;
+    overflow: hidden;
+  }
+  body,
+  html,
+  #root {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+  }
 `;
 
 export default {
@@ -9,8 +20,8 @@ export default {
   fontSizes: {
     title: 24,
     subtitle: 20,
-    normal: 16,
-    caption: 14,
+    normal: 14,
+    caption: 12,
   },
   fontWeights: {
     light: 300,
@@ -21,6 +32,8 @@ export default {
   colors: {
     primary: '#4E69A3',
     secondary: '#5085E8',
+    sidebar: '#f2f2f5',
+    background: '#f6f6f9',
     border: '#ebebeb',
     borderLight: '#d3d8e0',
     alert: '#e86250',
