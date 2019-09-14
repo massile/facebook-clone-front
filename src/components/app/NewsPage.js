@@ -2,6 +2,7 @@ import React from 'react';
 import TabList from '../ui/TabList';
 import Tab from '../ui/Tab';
 import Frame from '../ui/Frame';
+import PostsTab from './tabs/PostsTab';
 
 function NewsPage() {
   return (
@@ -11,6 +12,7 @@ function NewsPage() {
         <Tab>Photos</Tab>
         <Tab>Video</Tab>
       </TabList>
+      <PostsTab />
     </Frame>
   );
 }
