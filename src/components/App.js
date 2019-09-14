@@ -5,6 +5,7 @@ import theme, { globalStyle } from '../theme';
 import Sidebar from './app/Sidebar';
 import NewsPage from './app/NewsPage';
 import Frame from './ui/Frame';
+import Content from './ui/Content';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Global styles={globalStyle} />
       <Frame height="100%" display="flex">
         <Sidebar />
-        <NewsPage />
+        <Content>
+          <NewsPage />
+        </Content>
       </Frame>
     </ThemeProvider>
   );

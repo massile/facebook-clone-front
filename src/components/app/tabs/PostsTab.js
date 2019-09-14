@@ -8,6 +8,7 @@ function PostsTab() {
       <Frame width={1025} marginRight={25}>
         <Panel height={80} marginBottom={25} raised />
         <Panel height={300} marginBottom={25} />
+        <Panel height={300} marginBottom={25} />
         <Panel height={300} />
       </Frame>
       <Frame width="calc(100% - 1050px)">

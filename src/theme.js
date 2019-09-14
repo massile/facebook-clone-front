@@ -6,7 +6,6 @@ export const globalStyle = css`
 
   body {
     background: #f6f6f9;
-    overflow: hidden;
   }
   body,
   html,
