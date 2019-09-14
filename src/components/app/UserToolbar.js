@@ -9,7 +9,7 @@ const ToolbarContainer = styled.div(
     display: 'flex',
     alignItems: 'center',
     width: '100%',
-    height: 90,
+    height: 75,
     position: 'fixed',
     padding: '0 75px',
     bottom: 0,
