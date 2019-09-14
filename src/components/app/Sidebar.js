@@ -7,6 +7,7 @@ import { ReactComponent as Chat } from '../../assets/chat.svg';
 import Frame from '../ui/Frame';
 import Text from '../ui/Text';
 import Icon from '../ui/Icon';
+import NavItem from '../ui/NavItem';
 
 const NewsPaperIcon = Icon.withComponent(NewsPaper);
 const PagesIcon = Icon.withComponent(Pages);
@@ -20,22 +21,22 @@ function Sidebar() {
       <Text family="secondary" weight="bold" marginBottom={40} marginTop={55}>
         Menu
       </Text>
-      <Text family="secondary" marginBottom={30} weight="bold">
+      <NavItem active>
         <NewsPaperIcon />
         News
-      </Text>
-      <Text family="secondary" marginBottom={30} weight="medium">
+      </NavItem>
+      <NavItem>
         <ChatIcon />
         Messages
-      </Text>
-      <Text family="secondary" marginBottom={30} weight="medium">
+      </NavItem>
+      <NavItem>
         <UserIcon />
         Friends
-      </Text>
-      <Text family="secondary" marginBottom={30} weight="medium">
+      </NavItem>
+      <NavItem>
         <PagesIcon />
         Pages
-      </Text>
+      </NavItem>
     </Frame>
   );
 }
