@@ -1,10 +1,13 @@
-import React from 'react';
+import styled from '@emotion/styled';
+
+const Text = styled.p({}, ({ theme, size = 'normal', weight = 'regular', color = 'black' }) => ({
+  fontFamily: theme.fontFamily,
+  fontSize: theme.fontSizes[size],
+  fontWeight: theme.fontWeights[weight],
+  color: theme.colors[color],
+}));
 
 /**
- * This is the text component
+ * @component
  */
-function Text() {
-    return <p>test</p>;
-}
-
 export default Text;
