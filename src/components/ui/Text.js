@@ -3,6 +3,11 @@ import styled from '@emotion/styled';
 const Text = styled.p(
   {
     margin: 0,
+    display: 'flex',
+    alignItems: 'center',
+    '> svg': {
+      marginRight: 20,
+    }
   },
   ({
     theme,
