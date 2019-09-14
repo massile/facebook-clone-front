@@ -5,4 +5,7 @@ const Frame = styled.div({}, ({ theme, children, background = 'white', ...props 
   background: theme.colors[background],
 }));
 
+/**
+ * @component
+ */
 export default Frame;
