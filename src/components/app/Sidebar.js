@@ -4,16 +4,22 @@ import Text from '../ui/Text';
 
 function Sidebar() {
   return (
-    <Frame width={260} height="100%" background="sidebar" paddingLeft={35} paddingTop={30}>
-      <Text weight="semibold" marginBottom={37} marginTop={85}>
+    <Frame width={350} height="100%" background="sidebar" paddingLeft={72} paddingTop={50}>
+      <Text family="secondary" weight="bold" marginBottom={40} marginTop={105}>
         Menu
       </Text>
-      <Text marginBottom={20} weight="semibold">
+      <Text family="secondary" marginBottom={35} weight="bold">
         News
       </Text>
-      <Text marginBottom={20}>Messages</Text>
-      <Text marginBottom={20}>Friends</Text>
-      <Text marginBottom={20}>Pages</Text>
+      <Text family="secondary" marginBottom={35} weight="medium">
+        Messages
+      </Text>
+      <Text family="secondary" marginBottom={35} weight="medium">
+        Friends
+      </Text>
+      <Text family="secondary" marginBottom={35} weight="medium">
+        Pages
+      </Text>
     </Frame>
   );
 }
